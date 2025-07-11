@@ -93,14 +93,15 @@ nav {
 .content-title {
     font-size: 42px;
     font-weight: bold;
+    color: #252432;
 }
 
 .content-description {
     font-size: 24px;
     font-weight: 100px;
-    color: #252432;
-    margin-top: 23px;
-    margin-bottom: 23px;
+    color: rgba(37, 36, 50, 0.5);
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
 .content {
     display: flex;
@@ -115,12 +116,13 @@ nav {
 .skill-description {
     font-size: 20px; font-weight: 100px; color: #000000;
 }
-.background {
-    background-color: aqua;}
+.skill {
+background-color: rgba(78, 71, 255, 0.1);
+margin-left: 141px; margin-right: 159px; margin-top: 116px; border-radius: 35px;
+}
 
 
 .skill-allign {
-    align-items: baseline;
     display: flex;
     justify-content: space-between;
 
@@ -161,4 +163,7 @@ nav {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+.background-last {
+    background-color: white;
 }
