@@ -128,32 +128,31 @@ margin-left: 141px; margin-right: 159px; margin-top: 116px; border-radius: 35px;
 
 
 }
-.review-title {
-    color: #757575;
-}
-.review-date {
-    color: #B3B3B3;
-}
-.review-background {
-   
-   display: flex;
-   background-color: white;
-   justify-content: space-between;
-   gap: 50px;
+.rvw-title {
+    color: rgba(30, 30, 30, 1);
 
-    
-    
-   
+}
+
+.rvw-cointainer {
+    display: flex;
+    gap: 100px;
     margin-left: 151px;
     margin-right: 149px;
-    padding: 0;}
+    padding: 20px;
+    box-shadow: inset;
+    box-sizing: border-box;
+    background-color: white;
+    justify-content: space-between;
+}
+.rvw-date {
+    color: #B3B3B3;
+}
 
-    .review-description {
+
+    .rvw-description {
         font-size: 11px; font-weight: 100px;
     }
-    .review-love {
-        font-size: 20px; font-weight: bold;
-    }
+   
 .footer-style {
     display: flex;
     padding-left: 150px;
