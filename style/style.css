@@ -116,12 +116,14 @@ nav {
     font-size: 20px; font-weight: 100px; color: #000000;
 }
 .background {
-    background-color: #f5f8ff;}
+    background-color: aqua;}
 
 
 .skill-allign {
+    align-items: baseline;
     display: flex;
     justify-content: space-between;
+
 
 }
 .review-title {
@@ -131,5 +133,20 @@ nav {
     color: #B3B3B3;
 }
 .review-background {
-    background-color: white;
-}
+   
+    display: flex;
+    gap: 20px;
+    border: 1px;
+    
+    
+   
+    margin-left: 151px;
+    margin-right: 149px;
+    padding: 0;}
+
+    .review-description {
+        font-size: 11px; font-weight: 100px;
+    }
+    .review-love {
+        font-size: 20px; font-weight: bold;
+    }
